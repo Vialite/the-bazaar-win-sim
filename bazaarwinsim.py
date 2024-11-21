@@ -21,7 +21,7 @@ PERFECT_PRESTIGE = 20
 
 # PARAMS
 NUM_RUNS = 10000000
-WIN_RATE = 60
+WIN_RATE = 50
 
 data = []
 print(f"Simulating {NUM_RUNS} runs with a {WIN_RATE}% win rate per PvP match")
