@@ -31,7 +31,7 @@ while(len(data) < NUM_RUNS):
     run = Run()
     while(run.prestige > 0 and run.wins < 10):
         pvp_roll = rand.randint(1, 100)
-        pvp_is_win = pvp_roll >= WIN_RATE
+        pvp_is_win = pvp_roll <= WIN_RATE
         
         if pvp_is_win:
             run.wins += 1
